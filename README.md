@@ -23,4 +23,4 @@ The ```web.config``` has the main logic to start the two applications:
 </configuration>
 ```
 
-
+Note that, if you select Java SE as the stack, the platform will start another default app. You could switch the stack to ASP.NET and the things should still work.
