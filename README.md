@@ -1,4 +1,4 @@
-Here's how you could run two Spring Boot JARs on a single Windows App Service:
+# Here's how you could run two Spring Boot JARs on a single Windows App Service
 
 - Create two Virtual Applications:
 
