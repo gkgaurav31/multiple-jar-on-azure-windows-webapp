@@ -24,3 +24,5 @@ The ```web.config``` has the main logic to start the two applications:
 ```
 
 Note that, if you select Java SE as the stack, the platform will start another default app. You could switch the stack to ASP.NET and the things should still work. However, it will default to Java 8. If the app is not compatible with Java 8, it will fail. As a work-around, change the stack to Tomcat with Java 17 or Java 17 with Embedded Tomcat.
+
+Also note that, there will be a JVM for each of the above Spring Boot App. It may be more convenient to create different WebApps for each Java Application.
